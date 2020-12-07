@@ -7,7 +7,7 @@ body {
   box-sizing: border-box;
   background-color: #333333;
   width: 100vw;
-  height: 100%;
+  height: auto;
 }
 
 .wrapper {
@@ -28,9 +28,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  display: absolute;
-  width: 100%;
-  height: auto;
 }
 .wrapper .main .scare-crow h5 {
   position: absolute;
@@ -69,12 +66,37 @@ body {
   color: #ffffff;
   border: none;
   outline: none;
+  cursor: pointer;
+}
+.wrapper .main .content button:hover {
+  transition: background-color 0.5s ease;
+  background: gray;
 }
 .wrapper .footer {
   padding: 20px;
   font-size: 14px;
   line-height: 17px;
   text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .wrapper .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .wrapper .main .scare-crow {
+    width: 50%;
+  }
+  .wrapper .main .scare-crow img {
+    max-width: 90%;
+  }
+  .wrapper .main .content {
+    width: 50%;
+  }
+  .wrapper .main .content p {
+    width: 50%;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
