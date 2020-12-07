@@ -1,36 +1,80 @@
-body {
-  box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.main {
-  position: relative;
+body {
+  box-sizing: border-box;
+  background-color: #333333;
   width: 100vw;
+  height: 100%;
+}
+
+.wrapper {
+  background-color: #ffffff;
+  border-radius: 18px;
+  width: 100%;
+  height: 100%;
+}
+.wrapper .main {
+  position: relative;
   height: auto;
   overflow: hidden;
   font-family: 'Space Mono', monospace;
+  color: #333333;
 }
-.main .scare-crow {
+.wrapper .main .scare-crow {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100vw;
+  display: absolute;
+  width: 100%;
   height: auto;
 }
-.main .scare-crow h5 {
-  position: fixed;
-  top: 0;
+.wrapper .main .scare-crow h5 {
+  position: absolute;
+  top: 20px;
   left: 20px;
   font-family: 'Inconsolata', monospace;
+  font-size: 24px;
+  line-height: 25px;
+  letter-spacing: -0.08em;
 }
-.main .scare-crow img {
-  margin-top: 40px;
+.wrapper .main .scare-crow img {
+  margin-top: 80px;
   max-width: 80%;
   height: auto;
 }
-.main .content button {
+.wrapper .main .content {
+  padding: 20px;
+}
+.wrapper .main .content h1 {
+  font-size: 48px;
+  line-height: 71px;
+}
+.wrapper .main .content p {
+  font-size: 18px;
+  line-height: 27px;
+}
+.wrapper .main .content button {
+  margin-top: 30px;
   font-family: 'Space Mono', monospace;
   text-transform: uppercase;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.035em;
+  padding: 10px 15px;
+  background-color: #333333;
+  color: #ffffff;
+  border: none;
+  outline: none;
+}
+.wrapper .footer {
+  padding: 20px;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=index.css.map */
