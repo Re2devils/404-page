@@ -70,6 +70,6 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [PHA portfolio](http://www.fale.byethost7.com/Portfolio/)
-- GitHub [@BO RUA](https://github.com/Re2devils)
-- Twitter [@your-twitter](https://twitter.com/LeTrueRed)
+- Website [http://www.fale.byethost7.com/Portfolio/](https://{your-web-site-link})
+- GitHub [@Re2devils](https://{github.com/your-usermame})
+- Twitter [@LeTrueRed](https://{twitter.com/your-username})
