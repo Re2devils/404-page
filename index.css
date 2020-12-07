@@ -1,0 +1,36 @@
+body {
+  box-sizing: border-box;
+}
+
+.main {
+  position: relative;
+  width: 100vw;
+  height: auto;
+  overflow: hidden;
+  font-family: 'Space Mono', monospace;
+}
+.main .scare-crow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: auto;
+}
+.main .scare-crow h5 {
+  position: fixed;
+  top: 0;
+  left: 20px;
+  font-family: 'Inconsolata', monospace;
+}
+.main .scare-crow img {
+  margin-top: 40px;
+  max-width: 80%;
+  height: auto;
+}
+.main .content button {
+  font-family: 'Space Mono', monospace;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=index.css.map */
